@@ -1,3 +1,3 @@
 # Horoscope_Django
 
-Весь проект в ветке branches
+Весь проект в ветке master
