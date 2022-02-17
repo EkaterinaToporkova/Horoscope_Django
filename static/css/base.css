@@ -1,0 +1,33 @@
+
+
+html{
+    background-color: #B7B1EC;
+}
+
+nav {
+    text-align: left;
+    color: #F0E5FA;
+    font-size: 2rem;
+    height: 100%;
+    /* фиксированная ширина экрана width */
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    /* текст с перечислением знаков распологается в верхнем левом углу (top, left)*/
+    top: 0;
+    left: 0;
+    background-color: #904CCD;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+nav a {
+    color: #F0E5FA;
+    display: block;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+nav a:hover, ul a:active {
+    color: #E184DC;
+}

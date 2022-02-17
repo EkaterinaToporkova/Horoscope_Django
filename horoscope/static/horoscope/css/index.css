@@ -1,0 +1,41 @@
+/* отображение списка в главном меню */
+
+ul {
+    /* делаем две колонки */
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    /* убираем значик перед знаками зодиака */
+    list-style-type: none;
+    /* цвет фона */
+    background-color: #DDD0EC;
+    /* делаем максимальную длину */
+    max-width: 35rem;
+    /* делаем максимальный радиус у границы */
+    border-radius: 15px;
+    /* распологаем список по центру относительно экрана */
+    margin: 2rem auto;
+    /* делаем отступы */
+    padding: 15px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+ul li {
+    text-align: center;
+    width: 85%;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+
+ul a:hover, ul a:active {
+    color: #D945D1;
+}
+
+
+h1 {
+    color: #8D2AE5;
+    text-align: center;
+    /* шрифт текста "Приложение гороскоп"*/
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 40px;
+}
